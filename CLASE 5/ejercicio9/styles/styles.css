@@ -1,0 +1,28 @@
+body {
+    font-family: "Merienda";
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.fecha {
+    font-size: 0.6rem;
+    color:rgb(172, 172, 172)
+}
+
+.ingreso {
+    color: green;
+}
+
+.salida {
+    color: red;
+}

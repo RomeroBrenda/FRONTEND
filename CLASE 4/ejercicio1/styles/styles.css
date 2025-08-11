@@ -1,0 +1,25 @@
+h1 {
+    font-size: 120px;
+    font-weight: 800;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.nombre {
+    color:aqua;
+}
+
+.edad {
+    color: yellow;
+}
+
+.carrera {
+    color: red;
+}

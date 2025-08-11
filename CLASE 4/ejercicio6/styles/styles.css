@@ -1,0 +1,43 @@
+.lista-frutas {
+  font-size: 50px;
+}
+
+.manzana {
+  color: red;
+}
+
+.banana {
+  color: #FFD700; 
+}
+
+.kiwi {
+  color: green;
+}
+
+.naranja {
+  color: orange;
+}
+
+.uva {
+  color: purple;
+}
+
+.fresa {
+  color: #FF0066; 
+}
+
+.limon {
+  color: #CCFF00; 
+}
+
+.sandia {
+  color: #FF4D4D; 
+}
+
+.pera {
+  color: #99CC33; 
+}
+
+.cereza {
+  color: #990000; 
+}

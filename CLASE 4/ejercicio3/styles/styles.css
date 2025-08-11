@@ -1,0 +1,31 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.autor {
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+}
+
+.autor a {
+  color: skyblue;
+  text-decoration: none;
+}
+
+.italica {
+  font-style: italic;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.parrafo3 {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+}

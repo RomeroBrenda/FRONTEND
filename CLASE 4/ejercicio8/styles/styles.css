@@ -1,0 +1,22 @@
+.termometro {
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;     
+    text-align: center;     
+}
+
+.temp {
+    margin: 5px 0;
+}
+
+.temp-0  { color: #FFFF00; } 
+.temp-5  { color: #FFEB00; }
+.temp-10 { color: #FFD800; }
+.temp-15 { color: #FFC500; }
+.temp-20 { color: #FFB200; }
+.temp-25 { color: #FF8000; } 
+.temp-30 { color: #E67300; }
+.temp-35 { color: #CC6600; }
+.temp-40 { color: #B35900; }
+.temp-45 { color: #994D00; }
+.temp-50 { color: #FF0000; } 
