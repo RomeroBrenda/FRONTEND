@@ -24,6 +24,7 @@
     background-color: darkgoldenrod; 
     top: 0;
     left: 0;
+    z-index: 1; /*z-index mayor para que este x encima*/
 }
 
 .two {
@@ -36,6 +37,7 @@
     background-color: darkolivegreen;
     top: 200px; /*(70 + 70) -> el doble de la posicion de la caja anterior*/
     left: 200px;
+    z-index: 1;
 }
 
 .four {
@@ -43,3 +45,4 @@
     top: 300px; /*(140 + 70)*/
     left: 300px;
 }
+
