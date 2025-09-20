@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(https://us.123rf.com/450wm/liaarevadze/liaarevadze1704/liaarevadze170400108/76343025-gotas-de-chocolate-derretido-aislado-sobre-fondo-marr%C3%B3n-ilustraci%C3%B3n-vectorial.jpg?ver=6) no-repeat center center/cover;
+    color: black;
+}
+
+h1 {
+    font-size: 3.50rem;
+}
+
+.intro {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.50rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(207, 207, 165);
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+    }
+}

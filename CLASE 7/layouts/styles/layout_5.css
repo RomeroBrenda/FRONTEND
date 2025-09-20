@@ -1,0 +1,70 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+/* Nav */
+nav {
+    background-color: rgb(194, 163, 255); /* violeta clarito */
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+/* Contenedor principal */
+.contenido-principal {
+    display: flex;
+    flex: 1; /* ocupa todo el espacio disponible */
+}
+
+/* Left panel */
+.left-panel {
+    background-color: pink;
+    width: 200px;
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Main */
+main {
+    flex: 1;
+    background-color: white;
+    padding: 3rem;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+/* Right panel */
+.right-panel {
+    background-color: rgb(194, 163, 255);
+    width: 200px;
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: magenta;
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+}

@@ -1,0 +1,49 @@
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #a5d6a7;
+  color: #242e4c;
+}
+
+/* Contenedor principal */
+.contenedor {
+  width: 250px;
+  padding: 30px;
+  background-color: #f7f7fc;
+  text-align: center;
+  border-radius: 10px;
+  margin: 150px auto;
+  box-shadow: 0 5px 20px black;
+}
+
+/* Título dentro del contenedor */
+.contenedor-titulo {
+  margin-top: 0;
+}
+
+/* Párrafo descriptivo */
+.parrafo {
+  color: #7d7a9e;
+}
+
+/* Sección de frutas */
+.frutas {
+  margin-top: 30px;
+}
+
+/* Cada fruta */
+.fruta {
+  width: 160px;
+  background-color: #ffffff;
+  border: 1px solid #ebebf2;
+  border-radius: 100px;
+  padding: 5px;
+  margin: 0 auto 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Efecto hover en cada fruta */
+.fruta:hover {
+  box-shadow: 0 5px 15px #7d7a9e;
+  transform: scale(1.1);
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+.contenido-principal {
+    display: flex;
+    flex: 1; 
+}
+
+main {
+    flex: 1;
+    background-color: white;
+    padding: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.right-panel {
+    background-color: mediumorchid; 
+    width: 18%;
+    padding: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: magenta;
+    text-align: center;
+    padding: 4rem;
+    font-size: 2rem;
+}

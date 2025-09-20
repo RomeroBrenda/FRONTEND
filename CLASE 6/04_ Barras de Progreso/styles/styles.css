@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+    min-height: 100vh;      
+    margin: 0;              
+}
+
+.barra-contenedora {
+    width: 500px;
+    height: 40px;
+    background-color: rgb(148, 148, 148);
+    border-radius: 100px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+.barra-progreso {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 100px;
+}
+
+.barra-10 { width: 10%; }
+.barra-25 { width: 25%; }
+.barra-50 { width: 50%; }
+.barra-75 { width: 75%; }
+.barra-90 { width: 90%; }
+
+h1 {
+    font-size: 3rem; 
+    margin-bottom: 40px; /* espacio debajo del título */
+    text-align: center;  
+}
+

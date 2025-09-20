@@ -1,0 +1,45 @@
+.container {
+    width: 630px;
+    height: 450px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 100px auto;
+    /*Hacemos el contenedor RELATIVO para posicionar hijos ABSOLUTOS*/
+    position: relative;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    /*Eliminamos el display: inline-block porque posicion absoluta saca el elemento del flujo*/
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+}
+
+.one {
+    background-color: darkgoldenrod; 
+    top: 0;
+    left: 0;
+}
+
+.two {
+    background-color: darkcyan;
+    top: 100px;
+    left: 100px;
+}
+
+.three {
+    background-color: darkolivegreen;
+    top: 200px; /*(70 + 70) -> el doble de la posicion de la caja anterior*/
+    left: 200px;
+}
+
+.four {
+    background-color: darkred;
+    top: 300px; /*(140 + 70)*/
+    left: 300px;
+}

@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo y centrado */
+body {
+  display: flex;
+  justify-content: center; /* centra horizontal */
+  align-items: center;    /* centra vertical */
+  height: 100vh;          /* ocupa toda la pantalla */
+  background-color: #f5f7fb;
+  color: #1f2d5c;
+}
+
+.pagina {
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+}
+
+/* Tarjeta */
+.card {
+  display: flex;
+  gap: 1rem; /* espacio entre el ícono y el bloque de texto */
+  width: 500px;
+  max-width: 100%;
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 20px black;
+  position: relative;
+}
+
+/* Campana */
+.campana {
+  flex: 0 0 70px;
+  height: 70px;
+  display: grid;
+  place-items: center;
+  font-size: 40px;
+  background-color: #fff7d6;
+  border: 1px solid #ffe9a3;
+  border-radius: 12px;
+}
+
+/* Contenido de la Tarjeta */
+.contenido {
+  flex: 1;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.parrafo {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.texto-chico {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.enlace {
+  color: #3f6cff;
+  text-decoration: none;
+}
+.enlace:hover {
+  text-decoration: underline;
+}
+
+/* Botón */
+.boton {
+  background: linear-gradient(180deg, #6aa9ff 0%, #4764ff 100%);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.boton:hover {
+  opacity: 0.9;
+}

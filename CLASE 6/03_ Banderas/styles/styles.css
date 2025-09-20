@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    background: white
+}
+
+.bandera {
+    width: 300px;
+    height: 200px;
+    background: white;
+    position: relative;
+    border: 3px solid black;
+    box-shadow: 0 5px 15px rgba(36, 35, 35, 0.3);
+    overflow: hidden;
+}
+
+.cruz-vertical {
+    position: absolute;
+    background: rgb(179, 2, 2);
+    width: 40px;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cruz-horizontal {
+  position: absolute;
+  background: rgb(179, 2, 2);
+  height: 40px;        
+  width: 100%;         
+  top: 50%;            
+  transform: translateY(-50%);
+}
+
+.bandera-rectangular {
+    border-radius: 0;
+}
+
+.bandera-redondeada {
+    border-radius: 30px;
+}
+
+.bandera-circular {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.bandera-capsula {
+    border-radius: 100px;
+}

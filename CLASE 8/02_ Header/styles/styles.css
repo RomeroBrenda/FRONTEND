@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+header {
+  background-color: #333; 
+  width: 100%;
+  height: 40px;  
+  display: flex;
+  align-items: center; 
+  padding: 0 20px; 
+  box-sizing: border-box;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex; 
+  gap: 20px; /* separación entre links */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none; 
+  color: white;          
+  font-size: 16px;      
+}
+
+.menu-icon {
+  display: none; 
+  color: white;
+  font-size: 20px;
+  margin-left: auto; 
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    display: none; /*Ocultamos links*/
+  }
+  .menu-icon {
+    display: block; /*Mostramos ícono*/
+  }
+}
