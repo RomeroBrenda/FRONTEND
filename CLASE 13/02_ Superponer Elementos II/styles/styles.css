@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+     background-color: black;
+}
+
+h2 {
+    font-size: 2rem;
+    color: white;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+article.contenedor-gris {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.cuadrado-rojo {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+.cuadrado-verde {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+}
+
+/*Posicionamiento para cada ejemplo*/
+
+/*Ejemplo 1*/
+.ejemplo-1 .cuadrado-rojo {
+    /*Por defecto top:0; left:0;*/
+}
+
+.ejemplo-1 .cuadrado-verde {
+    bottom: 0;
+    right: 0;
+}
+
+/*Ejemplo 2*/
+.ejemplo-2 .cuadrado-rojo {
+    bottom: 0;
+    left: 0;
+}
+
+.ejemplo-2 .cuadrado-verde {
+    top: 0;
+    right: 0;
+}
+
+/*Ejemplo 3*/
+.ejemplo-3 .cuadrado-rojo {
+    bottom: 0;
+    right: 0;
+}
+
+.ejemplo-3 .cuadrado-verde {
+    top: 0;
+    right: 0;
+}
+
+/*Ejemplo 4*/
+.ejemplo-4 .cuadrado-rojo {
+    bottom: 0;
+    left: 0;
+}
+
+.ejemplo-4 .cuadrado-verde {
+    bottom: 0;
+    left: 30px;
+}
+
+/*Ejemplo 5*/
+.ejemplo-5 .cuadrado-rojo {
+    top: 0;
+    right: 0;
+}
+
+.ejemplo-5 .cuadrado-verde {
+    top: 30px;
+    right: 30px;
+}
+
+/*Ejemplo 6*/
+.ejemplo-6 .cuadrado-rojo {
+    bottom: 0;
+    right: 0;
+}
+
+.ejemplo-6 .cuadrado-verde {
+    top: 40px;
+    right: 0;
+}
+
+/*Ejemplo 7*/
+.ejemplo-7 .cuadrado-rojo {
+    top: 0;
+    left: 20px;
+    right: 20px;
+}
+
+.ejemplo-7 .cuadrado-verde {
+    bottom: 0;
+    left: 0;
+}
+
+/*Ejemplo 8*/
+.ejemplo-8 .cuadrado-rojo {
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+}
+
+.ejemplo-8 .cuadrado-verde {
+    bottom: 0;
+    left: 35px;
+    right: 35px;
+}
+
+/*Ejemplo 9*/
+.ejemplo-9 .cuadrado-rojo {
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.ejemplo-9 .cuadrado-verde {
+    top: 35px;
+    bottom: 35px;
+    left: 35px;
+    right: 35px;
+}
+
