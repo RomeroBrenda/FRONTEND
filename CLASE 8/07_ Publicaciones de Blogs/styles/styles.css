@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS GENERALES (Móviles)*/
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 0.8em; 
+}
+
+.contenedor {
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.publicaciones {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tarjeta-publicacion {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-publicacion a {
+    font-size: 1em;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*RESPONSIVE*/
+/* Tablets (481px a 768px) */
+@media (min-width: 481px) {
+    body {
+        font-size: 0.9em; /* Aumenta el tamaño de fuente base */
+    }
+    .contenedor {
+        max-width: 768px; /* Fija un ancho máximo para tablets */
+        padding: 2rem;
+    }
+}
+
+/* Escritorios (a partir de 769px) */
+@media (min-width: 769px) {
+    body {
+        font-size: 1em; /* Vuelve al tamaño de fuente base estándar */
+    }
+    .contenedor {
+        max-width: 800px; /* Ancho máximo para escritorios */
+    }
+}
