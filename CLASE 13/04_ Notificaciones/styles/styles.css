@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.barra-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslateblue;
+    height: 60px;
+    padding: 0 20px;
+    color: white;
+}
+
+.icono-menu {
+    font-size: 2rem;;
+}
+
+.contenedor-iconos {
+    display: flex;
+    align-items: center;
+    padding: 0,5rem;
+    gap: 1rem;
+}
+
+.icono-notificacion {
+    position: relative;
+    font-size: 2rem;
+}
+
+.notificacion {
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    height: 18px;
+    width: 18px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-opciones {
+    font-size: 2rem;
+}
