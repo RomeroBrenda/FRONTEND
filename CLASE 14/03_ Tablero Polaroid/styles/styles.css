@@ -1,48 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
+:root {
+    /* Paleta para el fondo Degradado Suave */
+    --color-verde-claro: #e0f2f1;
+    --color-crema-suave: #fff8e1;
+
+    /* Colores de Acento (Texto) */
+    --color-verde-oscuro: #388e3c;
+    --color-verde-medio: #4caf50;
+    --color-texto-gris: #555;
+
+    /* Color de la tarjeta */
+    --color-polaroid-fondo: white;
+}
+
 body {
-    background-color: #f1f8e9; 
+    background: radial-gradient(circle,rgba(205, 255, 156, 1) 0%, rgba(151, 219, 172, 1) 100%);
     font-family: sans-serif;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: block;
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    font-family: 'Cedarville Cursive', cursive;
-    color: #388e3c; 
+    font-family: 'Cedarville Cursive';
+    color: var(--color-verde-oscuro);
     margin-bottom: 5px;
     text-align: center;
+    font-size: 3rem;
 }
 
 header p {
-    color: #4caf50; 
+    color: var(--color-verde-medio);
     text-align: center;
     font-style: italic;
     margin-bottom: 40px;
+    font-size: 1.3rem;
 }
 
 /* CONTENEDOR DE LA GALERÍA */
 .galeria-polaroid {
-    position: relative; 
-    width: 90vw; 
-    max-width: 1200px;
-    height: 80vh; 
+    position: relative;
+    width: 90vw;
+    max-width: 75rem;
+    height: 110vh;
+    margin: 0 auto;
 }
 
 /* ESTILO BASE DE POLAROID */
 .polaroid {
-    background-color: white;
-    padding: 15px 15px 40px 15px; 
+    background-color: var(--color-polaroid-fondo);
+    padding: 15px 15px 40px 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     display: inline-block;
-    position: absolute; 
+    position: absolute;
     cursor: pointer;
-    
+
     /* El z-index tiene un pequeño retraso (0.3s) para que se levante antes de pasar al frente */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease, z-index 0.01s linear 0.3s;
 }
@@ -50,7 +64,7 @@ header p {
 /* EFECTO HOVER: TRANSICIÓN Y TRANSFORMACIÓN */
 .polaroid:hover {
     /* TRANSFORMACIÓN: Escala la imagen, la endereza (rotate(0deg)) y la mueve al centro visual */
-    transform: scale(1.15) rotate(0deg); 
+    transform: scale(1.15) rotate(0deg);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     z-index: 100;
 }
@@ -67,42 +81,63 @@ header p {
     text-align: center;
     margin-top: 10px;
     font-size: 1.25em;
-    color: #555;
+    color: var(--color-texto-gris);
 }
 
 /* POSICIÓN Y ROTACIÓN INDIVIDUAL */
 
 .p-uno {
-    top: 10%;
-    left: 10%;
-    width: 250px;
-    transform: rotate(-8deg);
+    top: 5%;
+    left: 5%;
+    width: 15rem;
+    transform: rotate(-10deg);
 }
 
 .p-dos {
-    top: 50%;
-    left: 25%;
-    width: 300px;
-    transform: rotate(15deg);
+    top: 30%;
+    left: 5%;
+    width: 17rem;
+    transform: rotate(5deg);
 }
 
 .p-tres {
-    top: 5%;
-    left: 45%;
-    width: 200px;
-    transform: rotate(3deg);
+    top: 10%;
+    left: 35%;
+    width: 12.5rem;
+    transform: rotate(18deg);
 }
 
 .p-cuatro {
-    top: 65%;
-    left: 55%;
-    width: 280px;
-    transform: rotate(-10deg);
+    top: 60%;
+    left: 50%;
+    width: 16rem;
+    transform: rotate(-8deg);
 }
 
 .p-cinco {
     top: 30%;
     left: 70%;
-    width: 220px;
-    transform: rotate(7deg);
+    width: 13rem;
+    transform: rotate(10deg);
+}
+
+.p-seis {
+    top: 75%;
+    left: 5%;
+    width: 14rem;
+    transform: rotate(-3deg);
+}
+
+.p-siete {
+    top: 45%;
+    left: 30%;
+    width: 18rem;
+    transform: rotate(-15deg);
+}
+
+.p-ocho {
+    top: 70%;
+    left: 70%;
+    width: 15.5rem;
+    transform: rotate(5deg);
 }

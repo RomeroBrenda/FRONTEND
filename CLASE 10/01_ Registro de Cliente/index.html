@@ -12,12 +12,12 @@
         <!-- Nombre y Apellido -->
         <label class="fila">
             <span>Nombre</span>
-            <input type="text" name="nombre" placeholder="Ej: Brenda" required>
+            <input type="text" name="nombre" placeholder="Ej: Brenda" pattern="[A-Za-zñÑáéíóúÁÉÍÓÚ\s]+" title="Solo se permiten letras" required>
         </label>
         
         <label class="fila">
             <span>Apellido</span>
-            <input type="text" name="apellido" placeholder="Ej: Romero" required>
+            <input type="text" name="apellido" placeholder="Ej: Romero" pattern="[A-Za-zñÑáéíóúÁÉÍÓÚ\s]+" title="Solo se permiten letras" required>
         </label>
 
         <!-- DNI y Email -->
